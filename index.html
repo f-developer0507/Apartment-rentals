@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Аренда квартир</title>
+  <!-- owl.carousel.css -->
+  <link rel="stylesheet" href="./css/owl.carousel.min.css">
+  <!-- owl.theme.default.css -->
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header class="header">
+      <div class="container">
+      <nav class="header-nav">
+        <a href="./index.html" class="nav-logo"><img src="./imgs/header/logo.svg" alt="logo"></a>
+        <ul class="nav-list">
+          <li><a href="#!">Главная</a></li>
+          <li><a href="#!">Квартиры</a></li>
+          <li><a href="#!">Контакты</a></li>
+          <li><a href="#!">О нас</a></li>
+        </ul>
+        <ul class="nav-contacts">
+          <li>
+            <span class="nav-contacts__icon"><img src="./imgs/header/email.svg" alt="email"></span>
+            <p class="nav-contacts__text">mail@yandex.ru</p>
+          </li>
+          <li>
+            <span class="nav-contacts__icon"><img src="./imgs/header/phone.svg" alt="phone"></span>
+            <p class="nav-contacts__text">+7 (919) 714-25-00</p>
+          </li>
+          <button type="button" class="nav-btn btn">Заказать звонок</button>
+        </ul>
+      </nav>
+      <div class="header-row">
+          <div class="header-row__content-left">
+            <h1 class="header-row__content-left__title">Аренда квартир в Березниках</h1>
+            <p class="header-row__content-left__text">На длительный срок или посуточно</p>
+            <a href="#!" class="header-row__content-left__btn btn">Смотреть варианты</a>
+          </div>
+          <div class="header-row__img">
+            <img src="./imgs/header/header-right.png" alt="header-right">
+          </div>
+        </div>
+        <ul class="header__item">
+          <li class="header__items">
+            <span class="header__items__icon"><img src="./imgs/header/img-01.png" alt="img-01"></span>
+            <p class="header__items__text">Заключаем договоры, предоставляет отчётные документы</p>
+          </li>
+          <li class="header__items">
+            <span class="header__items__icon"><img src="./imgs/header/img-02.png" alt="img-02"></span>
+            <p class="header__items__text">Наличный и <br> безналичный расчёт</p>
+          </li>
+          <li class="header__items">
+            <span class="header__items__icon"><img src="./imgs/header/img-03.png" alt="img-03"></span>
+            <p class="header__items__text">Бронирование и заселение круглосуточно</p>
+          </li>
+          <li class="header__items">
+            <span class="header__items__icon"><img src="./imgs/header/img-04.png" alt="img-04"></span>
+            <p class="header__items__text">Полная <br>конфиденциальность</p>
+          </li>
+        </ul>
+      </div>
+      <!-- modal-window -->
+      <div class="modal-window hidden">
+        <div class="modal-window__item">
+          <button type="button" class="modal-window__clouse-btn"><img src="./imgs/icon/clouse.svg" alt="clouse"></button>
+          <h1 class="modal-window__item__title">Заказать звонок</h1>
+          <p class="modal-window__item__text">Оставьте заявку и мы свяжемся с Вами в ближайшее время!</p>
+          <form id="modal-window__item__inputs">
+            <input type="text" placeholder="Имя" name="user-name">
+            <input type="tel" placeholder="Телефон" name="user-phone">
+          </form>
+          <button type="button" class="modal-window__item__btn btn">Отправить</button>
+        </div>
+      </div>
+  </header>
+
+  <section class="our-apartments">
+    <div class="container">
+      <h1 class="our-apartments__title">Наши квартиры</h1>
+      <div class="our-apartments__contanet">
+      <div class="our-apartments__contanet__item">
+        
+      <div class="our-apartments__contanet__items" style="background-image: url(./imgs/our-apartments/img-01.jpg);">
+        <div class="our-apartments__contanet__items__contant">
+          <h2 class="our-apartments__contanet__items__contant__title">Однокомнатная квартира</h2>
+          <p class="our-apartments__contanet__items__contant__text">Сутки: <span class="fat">1 500 ₽</span></p>
+          <div class="our-apartments__contanet__items__contant__location">
+            <p class="our-apartments__contanet__items__contant__location__text"><img src="./imgs/icon/location-red.svg" alt="location-icon">Березники, ул. Юбилейная 108</p>
+            <a href="#!" class="our-apartments__contanet__items__contant__location__btn btn">Подробнее</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="our-apartments__contanet__items" style="background-image: url(./imgs/our-apartments/img-02.jpg);">
+        <div class="our-apartments__contanet__items__contant">
+          <h2 class="our-apartments__contanet__items__contant__title">Трёхкомнатная квартира</h2>
+          <p class="our-apartments__contanet__items__contant__text">Сутки: <span class="fat">1 300 ₽</span></p>
+          <div class="our-apartments__contanet__items__contant__location">
+            <p class="our-apartments__contanet__items__contant__location__text">
+              <img src="./imgs/icon/location-red.svg" alt="location-icon">Березники, ул. Гагарина 89</p>
+            <a href="#!" class="our-apartments__contanet__items__contant__location__btn btn">Подробнее</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="our-apartments__contanet__items" style="background-image: url(./imgs/our-apartments/img-03.jpg);">
+        <div class="our-apartments__contanet__items__contant">
+          <h2 class="our-apartments__contanet__items__contant__title">Двухкомнатная квартира</h2>
+          <p class="our-apartments__contanet__items__contant__text">Сутки: <span class="fat">1 700 ₽</span></p>
+          <div class="our-apartments__contanet__items__contant__location">
+            <p class="our-apartments__contanet__items__contant__location__text">
+              <img src="./imgs/icon/location-red.svg" alt="location-icon">Березники, ул. Власова 14</p>
+            <a href="#!" class="our-apartments__contanet__items__contant__location__btn btn">Подробнее</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="our-apartments__contanet__items" style="background-image: url(./imgs/our-apartments/img-04.jpg);">
+        <div class="our-apartments__contanet__items__contant">
+          <h2 class="our-apartments__contanet__items__contant__title">Пятикомнатная квартира</h2>
+          <p class="our-apartments__contanet__items__contant__text">Сутки: <span class="fat">4 100 ₽</span></p>
+          <div class="our-apartments__contanet__items__contant__location">
+            <p class="our-apartments__contanet__items__contant__location__text">
+              <img src="./imgs/icon/location-red.svg" alt="location-icon">Березники, ул. Шмидта 10</p>
+            <a href="#!" class="our-apartments__contanet__items__contant__location__btn btn">Подробнее</a>
+          </div>
+        </div>
+      </div>
+      </div>
+      <a href="#!" class="our-apartments__contanet-btn btn">Смотреть все квартиры</a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="about-us">
+    <div class="container">
+      <div class="about-us__content">
+        <div class="about-us__content__text">
+          <h1 class="about-us__content__text__title">О нас</h1>
+          <p class="about-us__content__text__text">
+            Сегодня «Домашняя гостиница» — одна 
+            из крупнейших в Пермском крае гостиничных 
+            сетей, динамично расширяющая 
+            географический охват и повышающая качество
+            сервиса.</p>
+        </div>
+        <ul class="about-us__content__img">
+          <li>
+            <img src="./imgs/about-us/img-01.svg" alt="img-01">
+            <h2 class="about-us__content__img__title">40+ <span class="about-us__content__img__text">Клиентов</span></h2>
+          </li>
+          <li>
+            <img src="./imgs/about-us/img-02.svg" alt="img-02">
+            <h2 class="about-us__content__img__title">100+ <span class="about-us__content__img__text">Отзывов</span></h2>
+          </li>
+          <li>
+            <img src="./imgs/about-us/img-03.svg" alt="img-03">
+            <h2 class="about-us__content__img__title">9 <span class="about-us__content__img__text">Квартир</span></h2>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts">
+    <div class="container">
+      <div class="contacts__row">
+        <div class="contacts__row__content">
+          <div class="contacts__row__content__top">
+            <h1 class="contacts__row__content__title">Контакты</h1>
+            <ul class="contacts__row__content__top-icon">
+              <li>
+                <img src="./imgs/icon/location-white.svg" alt="location-white">
+                <p class="contacts__row__content__top-text">Пермский край, город Березники</p>
+              </li>
+              <li>
+                <img src="./imgs/icon/email.svg" alt="email">
+                <p class="contacts__row__content__top-text">mail@yandex.ru</p>
+              </li>
+              <li>
+                <img src="./imgs/icon/phone.svg" alt="phone">
+                <p class="contacts__row__content__top-text">+7 (919) 714-25-00</p>
+              </li>
+            </ul>
+
+          </div>
+          <div class="contacts__row__content__bottom">
+            <ul class="contacts__row__content__bottom-icon">
+              <li>
+                <img src="./imgs/icon/instagramm.svg" alt="instagramm">
+                <p class="contacts__row__content__bottom-text">arendakvartir59</p>
+                <a href="#!" class="contacts__row__content__bottom-btn btn">Подписаться</a>
+              </li>
+              <li>
+                <img src="./imgs/icon/vk.svg" alt="vk">
+                <p class="contacts__row__content__bottom-text">arendakvartir59</p>
+                <a href="#!" class="contacts__row__content__bottom-btn btn">Подписаться</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="contacts__row__map"><img src="./imgs/contacts/map.png" alt="map"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="customer-reviews">
+    <div class="container">
+      <h1 class="customer-reviews__carusel__title">Отзывы клиентов</h1>
+      <div class="customer-reviews__carusel">
+
+        <button type="button" class="owl-carousel-btn left"><img src="./imgs/icon/arow-left.svg" alt="arow-left"></button>       
+        <button type="button" class="owl-carousel-btn right"><img src="./imgs/icon/arow-right.svg" alt="arow-right"></button>        
+        <div class="owl-carousel">
+          <div class="owl-carousel-item">
+            <div class="owl-carousel-item__content">
+              <div class="owl-carousel-item__content-title">
+                <h1 class="owl-carousel-item__content-title__title">Уютная квартира</h1>
+                <img src="./imgs/icon/stars.svg" alt="stars">
+              </div>
+              <p class="owl-carousel-item__content__text">Первый раз отдыхали в Березниках, времени было мало соответственно жильё искали заранее. Залог вносили с опасением, и очень рады что они были напрасными. Всё супер. Нам понравилось!</p>
+              <div class="user-name">
+                <h2 class="name">Екатерина Трушникова<p class="city">г. Пермь</p></h2>
+                <p class="date">2 января 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="owl-carousel-item">
+            <div class="owl-carousel-item__content">
+              <div class="owl-carousel-item__content-title">
+                <h1 class="owl-carousel-item__content-title__title">Клёвый вид на город</h1>
+                <img src="./imgs/icon/stars.svg" alt="stars">
+              </div>
+              <p class="owl-carousel-item__content__text">Хочу поблагодарить за квартиру на ул. Юбилейной, д. 108. Удобное месторасположение, совсем рядом с центром. Квартира уютная, соседей не слышно, мы прекрасно отдохнули. Все что нужно для приготовления еды есть.</p>
+              <div class="user-name">
+                <h2 class="name">Иван Огородников<p class="city">г. Краснокамск</p></h2>
+                <p class="date">15 сентября 2019</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <!-- feedback -->
+    <div class="feedback">
+        <div class="feedback__content">
+          <div class="feedback__content__item">
+            <div class="feedback__content__item__contant">
+              <h1 class="feedback__content__item__contant__title">Напишите нам</h1>
+              <form method="post" enctype="multipart/form-data">
+                <input type="text" placeholder="Имя" class="name" name="user-name">
+                <input type="email" placeholder="Email" class="email" name="user-email">
+                <input type="text" placeholder="Ваше сообщение" class="your-messages" name="user-messages">
+              </form>
+              <a href="./index.html" class="feedback__content__item__contant__btn btn">Отправить</a>
+            </div>
+          </div>
+          <div class="feedback__content__text">
+            <p class="feedback__content__text__text">
+              Дорогой гость, если у тебя есть какие-то пожелания или притензии по улучшению качества обслуживания или просто хочешь оставить свой комментарий, то заполни форму. Мы обязательно ответим тебе, или опубликуем его на нашем сайте.
+            </p>
+            <div class="person-details">
+              <h2 class="person-details__name">Татьяна Вячеславовна</h2>
+              <p class="person-details__text">Директор гостиницы</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- footer -->
+    <div class="container">
+      <div class="footer__row">
+        <nav class="footer__nav">
+          <a href="./index.html" class="footer__nav__logo"><img src="./imgs/header/logo.svg" alt="footer__nav"></a>
+            <ul class="footer__nav__list">
+              <li><a href="#!">Главная</a></li>
+              <li><a href="#!">Квартиры</a></li>
+              <li><a href="#!">Контакты</a></li>
+              <li><a href="#!">О нас</a></li>
+            </ul>
+            <ul class="footer__nav__contacts">
+              <li><img src="./imgs/icon/email.svg" alt="email"><p class="footer__nav__contacts__text">mail@yandex.ru</p></li>
+              <li><img src="./imgs/icon/phone.svg" alt="phone"><p class="footer__nav__contacts__text">+7 (919) 714-25-00</p></li>
+            </ul>
+            <ul class="footer__nav__social">
+              <li><a href="#!"><img src="./imgs/icon/telegramm.svg" alt="telegramm"></a></li>
+              <li><a href="#!"><img src="./imgs/icon/facebook.svg" alt="facebook"></a></li>
+              <li><a href="#!"><img src="./imgs/icon/vk.svg" alt="vk"></a></li>
+              <li><a href="#!"><img src="./imgs/icon/instagramm.svg" alt="instagramm"></a></li>
+            </ul>
+          </nav>
+          <nav class="footer__copyright">
+            <p class="footer__copyright__text">© Copyright 2021, «Домашняя гостиница»</p></li>
+            <p class="footer__copyright__text">Пользовательское соглашение</p></li>
+          </nav>
+        </div>
+      </div>
+  </footer>
+
+
+  <!-- jquery.min.js -->
+  <script src="./js/jquery.min.js"></script>
+  <!-- owl.carousel.js -->
+  <script src="./js/owl.carousel.min.js"></script>
+  <!-- main js -->
+  <script src="./js/main.js"></script>
+</body>
+</html>
